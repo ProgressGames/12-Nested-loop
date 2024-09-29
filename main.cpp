@@ -1,18 +1,18 @@
 #include <iostream>
 using namespace std;
-//вложенные циклы
+//Р’Р»РѕР¶РµРЅРЅС‹Р№ С†РёРєР» | Nested loop
 
 int main() {
 
     setlocale(LC_ALL, "RUS");
     
-    for (int i = 1; i < 99; i++)
+    for (int i = 1; i < 5; i++)
     {
-        cout << "Сработал 1 цикл for,итерация № "<< i << endl;
+        cout << "РЎСЂР°Р±РѕС‚Р°Р» 1 С†РёРєР» for,РёС‚РµСЂР°С†РёСЏ в„– "<< i << endl;
 
-        for (int j = 1; j < 99; j++)
+        for (int j = 1; j < 5; j++)
         {
-            cout << "\tСработал 2 цикл for, итерация № " << j << endl;
+            cout << "\tРЎСЂР°Р±РѕС‚Р°Р» 2 С†РёРєР» for, РёС‚РµСЂР°С†РёСЏ в„– " << j << endl;
 
             
         }
